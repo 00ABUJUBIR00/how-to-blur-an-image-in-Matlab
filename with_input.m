@@ -1,6 +1,6 @@
 clc; clear all;
 
-x=imread('dog.jpg');
+x=imread('dog.jpg'); %put your image in the ''
 [r,c,rgb]=size(x);
 disp('The row of the picture is:');
 disp(r);
